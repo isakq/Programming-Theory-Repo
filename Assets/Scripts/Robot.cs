@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Robot : MonoBehaviour
 {
-    public int health = 100;
-    public int baseDamage = 10;
-    public int dodgeCapability = 10;
-    public int armor = 20;
+    public int standardHealth = 100;
+    public int standardBaseDamage { get; private set; }
+    public int standardDodgeCapability = 10;
+    public int standardArmor = 20;
     // Start is called before the first frame update
     void Start()
     {
-        
+        standardBaseDamage = 10;
     }
 
     // Update is called once per frame

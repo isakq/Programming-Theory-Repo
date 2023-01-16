@@ -1575,13 +1575,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a6e53fac037744b51b85ce84146bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  baseDamage: 10
-  dodgeCapability: 10
-  armor: 20
+  standardHealth: 100
+  standardDodgeCapability: 10
+  standardArmor: 20
   thiefHealth: 0
   thiefBaseDamage: 0
-  thiefDodgeCApability: 0
+  thiefDodgeCapability: 0
   thiefArmor: 0
 --- !u!4 &1447941957
 Transform:
@@ -2156,10 +2155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d772af7e8311a242b64fdb872350372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  baseDamage: 10
-  dodgeCapability: 10
-  armor: 20
+  standardHealth: 100
+  standardDodgeCapability: 10
+  standardArmor: 20
 --- !u!4 &1712438856
 Transform:
   m_ObjectHideFlags: 0

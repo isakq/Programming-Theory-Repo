@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class CombatUI : MonoBehaviour
+public class Combat : MonoBehaviour
 {
     public Robot robot;
     public Thief thief;
@@ -20,12 +20,13 @@ public class CombatUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UIDisplay(robot, playerUI);
-        UIDisplay(thief, enemyUI);
+        UIDisplay();
     }
 
-    void UIDisplay(Robot robot, TextMeshProUGUI textBox)
+    void UIDisplay()
     {
-        textBox.SetText($"Health: {robot.health}\nDamage: {robot.baseDamage}\nDodge: {robot.dodgeCapability}\nArmor: {robot.armor}");
+        playerUI.SetText($"Health: {robot.standardHealth}\nDamage: {robot.standardBaseDamage}\nDodge: {robot.standardDodgeCapability}\nArmor: {robot.standardArmor}");
+        enemyUI.SetText($"Health: {thief.thiefHealth}\nDamage: {thief.thiefBaseDamage}\nDodge: {thief.thiefDodgeCapability}\nArmor: {thief.thiefArmor}");
     }
+
 }

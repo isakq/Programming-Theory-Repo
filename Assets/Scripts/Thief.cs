@@ -6,13 +6,13 @@ public class Thief : Robot
 {
     public int thiefHealth;
     public int thiefBaseDamage;
-    public int thiefDodgeCApability;
+    public int thiefDodgeCapability;
     public int thiefArmor;
     private void Start()
     {
         thiefHealth = 75;
-        thiefBaseDamage = baseDamage;
-        thiefDodgeCApability = 40;
+        thiefBaseDamage = 5;
+        thiefDodgeCapability = 40;
         thiefArmor = 0;
     }
 
