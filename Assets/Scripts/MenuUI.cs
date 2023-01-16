@@ -2,12 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Robot : MonoBehaviour
+public class MenuUI : MonoBehaviour
 {
-    public int health = 100;
-    public int baseDamage = 10;
-    public int dodgeCapability = 10;
-    public int armor = 20;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,15 +14,5 @@ public class Robot : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public virtual void Attack()
-    {
-
-    }
-
-    public virtual void Dodge()
-    {
-
     }
 }
