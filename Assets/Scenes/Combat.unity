@@ -1544,7 +1544,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   robot: {fileID: 0}
   thief: {fileID: 0}
-  playerUI: {fileID: 0}
+  playerUI: {fileID: 1980679046}
+  enemyUI: {fileID: 956894463}
 --- !u!1 &1447941955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,6 +1579,10 @@ MonoBehaviour:
   baseDamage: 10
   dodgeCapability: 10
   armor: 20
+  thiefHealth: 0
+  thiefBaseDamage: 0
+  thiefDodgeCApability: 0
+  thiefArmor: 0
 --- !u!4 &1447941957
 Transform:
   m_ObjectHideFlags: 0
