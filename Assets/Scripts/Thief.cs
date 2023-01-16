@@ -25,4 +25,9 @@ public class Thief : Robot
     {
         
     }
+
+    public override void Defend()
+    {
+        
+    }
 }

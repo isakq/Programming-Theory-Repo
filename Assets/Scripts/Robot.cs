@@ -29,4 +29,9 @@ public class Robot : MonoBehaviour
     {
 
     }
+
+    public virtual void Defend()
+    {
+
+    }
 }
